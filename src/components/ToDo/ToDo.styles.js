@@ -21,7 +21,7 @@ export default StyleSheet.create({
     margin: 20,
     marginTop: 12,
     width: Dimensions.get('window').width * 0.8,
-    borderRadius: 15,
+    borderRadius: 14,
     backgroundColor: '#808080',
   },
   text: {
