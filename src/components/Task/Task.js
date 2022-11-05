@@ -16,7 +16,7 @@ const Task = ({todoList, setList}) => {
   return (
     <View style={styles.container}>
       {todoList.map(item => (
-        <View key={item.id}>
+        <View style={styles.item} key={item.id}>
           <Text
             onPress={() => handleChangeIsDone(item.id)}
             onLongPress={() => handleDeleteToDo(item.id)}>
